@@ -1,1 +1,1 @@
-# woodies
+# Woodies - a custom furniture store

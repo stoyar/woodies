@@ -1,13 +1,177 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" type="image/x-icon" href="/src/assets/icons/favicon.ico">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="/src/styles/reset.css">
+  <link rel="stylesheet" href="/src/styles/main.css">
   <title>Woodies</title>
 </head>
+
 <body>
-  
+  <div class="main-wrapper">
+    <header id="header" class="header">
+      <div class="brand-logo flex-center">
+        <img src="/src/assets/icons/Group 27.svg" alt="logo">
+        <p class="logo-text">Woodies</p>
+      </div>
+      <nav class="main-navigation">
+        <ul class="main-menu flex-center">
+          <li>
+            <a class="menu-item menu-item-active" href="#">Home</a>
+          </li>
+          <li>
+            <a class="menu-item" href="#who-we-are">About Us</a>
+          </li>
+          <li>
+            <a class="menu-item" href="#custom">How it works</a>
+          </li>
+          <li>
+            <a class="menu-item" href="#categories">Categories</a>
+          </li>
+          <li>
+            <a class="menu-item" href="#testimony">Testimony</a>
+          </li>
+        </ul>
+      </nav>
+      <input type="button" class="sign-up-button" value="Sign Up">
+    </header>
+
+    <main class="main-content">
+      <section class="head-section">
+        <div class="text-section">
+          <p class="head-text">Are you looking for
+            <span class="head-text-bold">woodden furniture</span>
+            for your place?
+          </p>
+          <h1 class="head-title">This is the Right Place</h1>
+          <input type="button" class="button head-button" value="Explore Furniture">
+        </div>
+
+        <div class="decoration">
+          <div class="pink-rectangle"></div>
+          <img class="decor-flower" src="/src/assets/icons/Logo.svg" alt="bacground image">
+          <img class="decor-image-table"
+            src="/src/assets/images/Simple-modern-balcony-small-coffee-table-living-room-small-apartment-sofa-side-table-simple-home-bedroom 1.png"
+            alt="" srcset="">
+        </div>
+      </section>
+      <section id="who-we-are" class="section-who-we-are">
+        <div class="section-header">
+          <img class="section-header-icon" src="/src/assets/icons/Group 27.svg" alt="logo secondary">
+          <h2 class="section-header-title">Who we are</h2>
+          <div class="section-header-divider"></div>
+          <p class="section-header-subtitle">About us</p>
+        </div>
+        <div class="about-top-wrapper">
+          <div class="about-color-block"></div>
+          <img class="about-plates-image" src="/src/assets/images/Kalmar-Home-7-pc-Acacia-Wood-Salad-Bowl-Set 1.png"
+            alt="woodden plates">
+          <div class="about-top-text-container">
+            <h3 class="about-top-text-title">WOODIES <span class="semibold">is the</span> home of modern wooden
+              furniture</h3>
+            <p class="about-top-text semibold">the answer to your need for furniture with shapes, sizes and colors. </p>
+          </div>
+          <img class="about-image-flower" src="/src/assets/icons/Logo.svg" alt="bacground image">
+        </div>
+        <div class="about-bottom-wrapper">
+          <div class="about-bottom-text-container">
+            <h3 class="about-bottom-text-title">
+              <span class="semibold">Customized furniture</span>
+              made just for you
+            </h3>
+            <p class="about-bottom-text semibold">Get it easy to adjust furniture to the shape and size of your dwelling or business.
+            </p>
+          </div>
+          <img
+            src="/src/assets/images/Script-Online-Ado-Beech-Steel-Spoon-Set-Of-3-52151704SD00001-PDP-Gallery-D-01 1.png"
+            alt="woodden spoons">
+        </div>
+      </section>
+      <section id="custom" class="section-how-to-custom">
+        <div class="section-header">
+          <img class="section-header-icon" src="/src/assets/icons/Group 27.svg" alt="logo secondary">
+          <h2 class="section-header-title">How to custom</h2>
+          <div class="section-header-divider"></div>
+          <p class="section-header-subtitle">HOW IT WORKS</p>
+        </div>
+        <div class="steps-wrapper">
+          <div class="step">
+            <p class="step-number">1</p>
+            <img src="/src/assets/icons/shop 1.svg" alt="step one">
+            <p class="step-text">Choose Design</p>
+          </div>
+          <div class="step">
+            <p class="step-number">2</p>
+            <img src="/src/assets/icons/ruler 1.svg" alt="step one">
+            <p class="step-text">Choose Design</p>
+          </div>
+          <div class="step">
+            <p class="step-number">3</p>
+            <img src="/src/assets/icons/cost 1.svg" alt="step one">
+            <p class="step-text">Choose Design</p>
+          </div>
+          <div class="step">
+            <p class="step-number">4</p>
+            <img src="/src/assets/icons/carpenter 1.svg" alt="step one">
+            <p class="step-text">Choose Design</p>
+          </div>
+        </div>
+        <input type="button" class="button how-to-button" value="Get Personalized Now">
+      </section>
+      <section id="categories" class="section-categories">
+        <div class="section-header">
+          <img class="section-header-icon" src="/src/assets/icons/Group 27.svg" alt="logo secondary">
+          <h2 class="section-header-title">What we have</h2>
+          <div class="section-header-divider"></div>
+          <p class="section-header-subtitle">CATEGORIES</p>
+        </div>
+        <div class="categories-wrapper">
+          <div class="category background-pink">
+            <h3 class="category-title">Desk</h3>
+            <img class="category-image image-table" src="/src/assets/images/half-table.png" alt="Desk">
+            <input type="button" class="category-button" value="Shop Now">
+          </div>
+          <div class="category background-pink">
+            <h3 class="category-title">Book Shelf</h3>
+            <img class="category-image" src="/src/assets/images/shelf.png" alt="Book shelf">
+            <input type="button" class="category-button" value="Shop Now">
+          </div>
+          <div class="category background-yellow">
+            <h3 class="category-title">Chair</h3>
+            <img class="category-image image-chair" src="/src/assets/images/chair.png" alt="Chair">
+            <input type="button" class="category-button" value="Shop Now">
+          </div>
+          <div class="category background-yellow">
+            <h3 class="category-title">Electronics</h3>
+            <img class="category-image" src="/src/assets/images/radio.png" alt="Vintage radio">
+            <input type="button" class="category-button" value="Shop Now">
+          </div>
+          <div class="category background-blue">
+            <h3 class="category-title">Kitchenware</h3>
+            <img class="category-image" src="/src/assets/images/cups.png" alt="Kitchenware">
+            <input type="button" class="category-button" value="Shop Now">
+          </div>
+        </div>
+      </section>
+      <section id="testimony" class="section-testimony">
+        <div class="section-header">
+          <img class="section-header-icon" src="/src/assets/icons/Group 27.svg" alt="logo secondary">
+          <h2 class="section-header-title">What they say</h2>
+          <div class="section-header-divider"></div>
+          <p class="section-header-subtitle">TESTIMONY</p>
+        </div>
+      </section>
+    </main>
+  </div>
 </body>
+
 </html>
